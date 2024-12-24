@@ -4,7 +4,8 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    content: "123 Event Street, Ibadan, Oyo State 12345",
+    content:
+      "23 Stone Road, Agbarico, Opposite, FRSC, Onireke Ibadan, Oyo State",
   },
   {
     icon: Phone,
@@ -37,7 +38,7 @@ export function ContactInfo() {
       ))}
       <div className="mt-8">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.98!3d40.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzAwLjAiTiA3M8KwNTgnNDguMCJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!4v1735032128632!6m8!1m7!1sukDtxzs-DUG_qSwSjlnswg!2m2!1d7.392213356710313!2d3.879978737583114!3f86.18807632323009!4f6.8001865935063535!5f0.7820865974627469"
           width="100%"
           height="300"
           style={{ border: 0 }}
