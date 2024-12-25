@@ -1,16 +1,18 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
-import { Navigation } from '@/components/navigation';
-import { Footer } from '@/components/footer';
-import { Toaster } from '@/components/ui/toaster';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Navigation } from "@/components/navigation";
+import { Footer } from "@/components/footer";
+import { Toaster } from "@/components/ui/toaster";
+import { ChristmasTheme } from "@/components/christmas-theme";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'MerciFIELD Events - Premium Event Planning & Venue',
-  description: 'Transform your special moments with MerciFIELD Events. Professional event planning, unique fruity designs, and a stunning event center for unforgettable celebrations.',
+  title: "MerciFIELD Events - Premium Event Planning & Venue",
+  description:
+    "Transform your special moments with MerciFIELD Events. Professional event planning, unique fruity designs, and a stunning event center for unforgettable celebrations.",
 };
 
 export default function RootLayout({
@@ -27,6 +29,7 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
+          <ChristmasTheme />
           <Navigation />
           <main className="min-h-screen">{children}</main>
           <Footer />

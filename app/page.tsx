@@ -17,6 +17,17 @@ import Image from "next/image";
 
 const featuredEvents = [
   {
+    title: "Christmas Gala",
+    image:
+      "https://images.unsplash.com/photo-1512389142860-9c449e58a543?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Elegant Christmas celebration with festive decorations",
+  },
+  {
+    title: "Holiday Corporate Party",
+    image: "https://images.unsplash.com/photo-1482517967863-00e15c9b44be",
+    description: "End-of-year corporate celebrations with Christmas spirit",
+  },
+  {
     title: "Wedding Reception",
     image:
       "https://images.unsplash.com/photo-1734705797824-147c18892c9e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -323,6 +334,16 @@ export default function Home() {
 
       {/* CTA Section */}
       <CTASection />
+
+      <div className="bg-red-600 text-white py-3 text-center animate-fade-up">
+        <Container>
+          <p className="flex items-center justify-center gap-2">
+            <span className="text-2xl">🎄</span>
+            Merry Christmas! Special holiday packages available
+            <span className="text-2xl">🎅</span>
+          </p>
+        </Container>
+      </div>
     </div>
   );
 }
