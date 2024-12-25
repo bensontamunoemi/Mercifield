@@ -29,7 +29,7 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <ChristmasTheme />
+          {/* <ChristmasTheme /> */}
           <Navigation />
           <main className="min-h-screen">{children}</main>
           <Footer />
